@@ -1,0 +1,90 @@
+/* Header Styling */
+.heading-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 40px auto 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading-section h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.heading-section h1 q {
+  quotes: "“" "”";
+  font-weight: bold;
+  color: #0077cc;
+}
+
+.heading-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.heading-section p {
+  font-size: 0.9rem;
+  color: #999;
+  font-style: italic;
+}
+
+/* Form Styling */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.contact-form input[type="tel"] {
+  font-family: monospace;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.success-message {
+  text-align: center;
+  font-size: 1.25rem;
+  color: green;
+  margin-top: 40px;
+}
